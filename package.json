@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-vue-starter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm run --filter nuxt build",
+    "dev": "pnpm run --filter nuxt dev"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6"
+  },
+  "packageManager": "pnpm@8.6.6"
+}
